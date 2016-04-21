@@ -7,7 +7,6 @@
 //
 
 import UIKit
-
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
@@ -18,6 +17,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var name: UILabel!
     @IBOutlet weak var input: UITextField!
     @IBOutlet weak var wv: UIWebView!
+    
     @IBAction func btn(sender: AnyObject) {
         let text = "Hello "+input.text!
         name.text = text
@@ -27,7 +27,6 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
+    
 }
 

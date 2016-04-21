@@ -34,6 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D86F22DC1CB60703001B3BE3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 		D8BBCB4D1CB6017300D42CAA /* HelloWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8BBCB501CB6017300D42CAA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D8BBCB521CB6017300D42CAA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -83,6 +84,7 @@
 				D8BBCB4E1CB6017300D42CAA /* Products */,
 			);
 			sourceTree = "<group>";
+			usesTabs = 0;
 		};
 		D8BBCB4E1CB6017300D42CAA /* Products */ = {
 			isa = PBXGroup;
@@ -297,9 +299,11 @@
 			isa = PBXVariantGroup;
 			children = (
 				D8BBCB551CB6017300D42CAA /* Base */,
+				D86F22DC1CB60703001B3BE3 /* en */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
+			usesTabs = 0;
 		};
 		D8BBCB591CB6017300D42CAA /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
@@ -484,6 +488,7 @@
 				D8BBCB771CB6017400D42CAA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D8BBCB781CB6017400D42CAA /* Build configuration list for PBXNativeTarget "HelloWorldTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +497,7 @@
 				D8BBCB7A1CB6017400D42CAA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D8BBCB7B1CB6017400D42CAA /* Build configuration list for PBXNativeTarget "HelloWorldUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +506,7 @@
 				D8BBCB7D1CB6017400D42CAA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
